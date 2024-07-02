@@ -2,7 +2,7 @@ from selene import browser, have
 import os
 
 
-def test_filling_and_sending_input(setting_browser):
+def test_filling_and_sending_input():
     browser.open('/automation-practice-form')
 
     browser.element('#firstName').type('Anna')
